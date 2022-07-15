@@ -6,16 +6,997 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>908</width>
+    <height>497</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>908</width>
+    <height>497</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>908</width>
+    <height>497</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar"/>
-  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QWidget" name="centralwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>908</width>
+     <height>497</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>908</width>
+     <height>497</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;widget name=&quot;__qt_fake_top_level&quot;&gt;
+  &lt;widget class=&quot;QLabel&quot; name=&quot;can7Device1Type_label_5&quot;&gt;
+   &lt;property name=&quot;enabled&quot;&gt;
+    &lt;bool&gt;true&lt;/bool&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;509&lt;/x&gt;
+     &lt;y&gt;88&lt;/y&gt;
+     &lt;width&gt;150&lt;/width&gt;
+     &lt;height&gt;100&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;sizePolicy&quot;&gt;
+    &lt;sizepolicy hsizetype=&quot;Preferred&quot; vsizetype=&quot;Preferred&quot;&gt;
+     &lt;horstretch&gt;0&lt;/horstretch&gt;
+     &lt;verstretch&gt;0&lt;/verstretch&gt;
+    &lt;/sizepolicy&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;minimumSize&quot;&gt;
+    &lt;size&gt;
+     &lt;width&gt;0&lt;/width&gt;
+     &lt;height&gt;80&lt;/height&gt;
+    &lt;/size&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;maximumSize&quot;&gt;
+    &lt;size&gt;
+     &lt;width&gt;380&lt;/width&gt;
+     &lt;height&gt;1024&lt;/height&gt;
+    &lt;/size&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;font&quot;&gt;
+    &lt;font&gt;
+     &lt;family&gt;Liberation Sans&lt;/family&gt;
+     &lt;pointsize&gt;11&lt;/pointsize&gt;
+     &lt;weight&gt;75&lt;/weight&gt;
+     &lt;italic&gt;false&lt;/italic&gt;
+     &lt;bold&gt;true&lt;/bold&gt;
+    &lt;/font&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;layoutDirection&quot;&gt;
+    &lt;enum&gt;Qt::LeftToRight&lt;/enum&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QLabel
+{
+border-radius: 0px;
+background-color: rgb(0,0,0);
+}
+&lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string/&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;alignment&quot;&gt;
+    &lt;set&gt;Qt::AlignCenter&lt;/set&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+  &lt;widget class=&quot;QLabel&quot; name=&quot;can7Device1NodeId_label_4&quot;&gt;
+   &lt;property name=&quot;enabled&quot;&gt;
+    &lt;bool&gt;true&lt;/bool&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;203&lt;/x&gt;
+     &lt;y&gt;88&lt;/y&gt;
+     &lt;width&gt;150&lt;/width&gt;
+     &lt;height&gt;100&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;sizePolicy&quot;&gt;
+    &lt;sizepolicy hsizetype=&quot;Preferred&quot; vsizetype=&quot;Preferred&quot;&gt;
+     &lt;horstretch&gt;0&lt;/horstretch&gt;
+     &lt;verstretch&gt;0&lt;/verstretch&gt;
+    &lt;/sizepolicy&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;minimumSize&quot;&gt;
+    &lt;size&gt;
+     &lt;width&gt;150&lt;/width&gt;
+     &lt;height&gt;80&lt;/height&gt;
+    &lt;/size&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;maximumSize&quot;&gt;
+    &lt;size&gt;
+     &lt;width&gt;200&lt;/width&gt;
+     &lt;height&gt;1024&lt;/height&gt;
+    &lt;/size&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;font&quot;&gt;
+    &lt;font&gt;
+     &lt;family&gt;Liberation Sans&lt;/family&gt;
+     &lt;pointsize&gt;11&lt;/pointsize&gt;
+     &lt;weight&gt;75&lt;/weight&gt;
+     &lt;italic&gt;false&lt;/italic&gt;
+     &lt;bold&gt;true&lt;/bold&gt;
+    &lt;/font&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;layoutDirection&quot;&gt;
+    &lt;enum&gt;Qt::LeftToRight&lt;/enum&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QLabel
+{
+border-radius: 0px;
+background-color: rgb(0,0,0);
+}
+&lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string/&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;alignment&quot;&gt;
+    &lt;set&gt;Qt::AlignCenter&lt;/set&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+  &lt;widget class=&quot;QLabel&quot; name=&quot;can7Device1WorkState_label_4&quot;&gt;
+   &lt;property name=&quot;enabled&quot;&gt;
+    &lt;bool&gt;true&lt;/bool&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;356&lt;/x&gt;
+     &lt;y&gt;88&lt;/y&gt;
+     &lt;width&gt;150&lt;/width&gt;
+     &lt;height&gt;100&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;sizePolicy&quot;&gt;
+    &lt;sizepolicy hsizetype=&quot;Preferred&quot; vsizetype=&quot;Preferred&quot;&gt;
+     &lt;horstretch&gt;0&lt;/horstretch&gt;
+     &lt;verstretch&gt;0&lt;/verstretch&gt;
+    &lt;/sizepolicy&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;minimumSize&quot;&gt;
+    &lt;size&gt;
+     &lt;width&gt;150&lt;/width&gt;
+     &lt;height&gt;80&lt;/height&gt;
+    &lt;/size&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;maximumSize&quot;&gt;
+    &lt;size&gt;
+     &lt;width&gt;213&lt;/width&gt;
+     &lt;height&gt;1024&lt;/height&gt;
+    &lt;/size&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;font&quot;&gt;
+    &lt;font&gt;
+     &lt;family&gt;Liberation Sans&lt;/family&gt;
+     &lt;pointsize&gt;11&lt;/pointsize&gt;
+     &lt;weight&gt;75&lt;/weight&gt;
+     &lt;italic&gt;false&lt;/italic&gt;
+     &lt;bold&gt;true&lt;/bold&gt;
+    &lt;/font&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;layoutDirection&quot;&gt;
+    &lt;enum&gt;Qt::LeftToRight&lt;/enum&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QLabel
+{
+border-radius: 0px;
+background-color: rgb(0,0,0);
+}
+&lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string/&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;alignment&quot;&gt;
+    &lt;set&gt;Qt::AlignCenter&lt;/set&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+  &lt;widget class=&quot;QLabel&quot; name=&quot;can7Device1Type_label_6&quot;&gt;
+   &lt;property name=&quot;enabled&quot;&gt;
+    &lt;bool&gt;true&lt;/bool&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;662&lt;/x&gt;
+     &lt;y&gt;88&lt;/y&gt;
+     &lt;width&gt;150&lt;/width&gt;
+     &lt;height&gt;100&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;sizePolicy&quot;&gt;
+    &lt;sizepolicy hsizetype=&quot;Preferred&quot; vsizetype=&quot;Preferred&quot;&gt;
+     &lt;horstretch&gt;0&lt;/horstretch&gt;
+     &lt;verstretch&gt;0&lt;/verstretch&gt;
+    &lt;/sizepolicy&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;minimumSize&quot;&gt;
+    &lt;size&gt;
+     &lt;width&gt;0&lt;/width&gt;
+     &lt;height&gt;80&lt;/height&gt;
+    &lt;/size&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;maximumSize&quot;&gt;
+    &lt;size&gt;
+     &lt;width&gt;380&lt;/width&gt;
+     &lt;height&gt;1024&lt;/height&gt;
+    &lt;/size&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;font&quot;&gt;
+    &lt;font&gt;
+     &lt;family&gt;Liberation Sans&lt;/family&gt;
+     &lt;pointsize&gt;11&lt;/pointsize&gt;
+     &lt;weight&gt;75&lt;/weight&gt;
+     &lt;italic&gt;false&lt;/italic&gt;
+     &lt;bold&gt;true&lt;/bold&gt;
+    &lt;/font&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;layoutDirection&quot;&gt;
+    &lt;enum&gt;Qt::LeftToRight&lt;/enum&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;styleSheet&quot;&gt;
+    &lt;string notr=&quot;true&quot;&gt;QLabel
+{
+border-radius: 0px;
+background-color: rgb(0,0,0);
+}
+&lt;/string&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string/&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;alignment&quot;&gt;
+    &lt;set&gt;Qt::AlignCenter&lt;/set&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+  &lt;widget class=&quot;QFrame&quot; name=&quot;frame_189&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;815&lt;/x&gt;
+     &lt;y&gt;88&lt;/y&gt;
+     &lt;width&gt;95&lt;/width&gt;
+     &lt;height&gt;100&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;minimumSize&quot;&gt;
+    &lt;size&gt;
+     &lt;width&gt;95&lt;/width&gt;
+     &lt;height&gt;100&lt;/height&gt;
+    &lt;/size&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;maximumSize&quot;&gt;
+    &lt;size&gt;
+     &lt;width&gt;95&lt;/width&gt;
+     &lt;height&gt;100&lt;/height&gt;
+    &lt;/size&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;frameShape&quot;&gt;
+    &lt;enum&gt;QFrame::StyledPanel&lt;/enum&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;frameShadow&quot;&gt;
+    &lt;enum&gt;QFrame::Raised&lt;/enum&gt;
+   &lt;/property&gt;
+   &lt;layout class=&quot;QGridLayout&quot; name=&quot;gridLayout_391&quot;&gt;
+    &lt;item row=&quot;0&quot; column=&quot;0&quot;&gt;
+     &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_18&quot;&gt;
+      &lt;property name=&quot;minimumSize&quot;&gt;
+       &lt;size&gt;
+        &lt;width&gt;50&lt;/width&gt;
+        &lt;height&gt;80&lt;/height&gt;
+       &lt;/size&gt;
+      &lt;/property&gt;
+      &lt;property name=&quot;styleSheet&quot;&gt;
+       &lt;string notr=&quot;true&quot;&gt;QPushButton
+{
+border-radius: 0px;
+color: rgb(255, 255, 255);
+background-color: rgb(37, 69, 93);
+border: 5px solid rgb(81, 91, 109);
+}
+
+QPushButton:pressed
+{
+border-radius: 0px;
+color: rgb(255, 255, 255);
+background-color: rgb(37, 69, 93);
+border: 5px solid rgb(0, 180, 255);
+}
+
+QPushButton:disabled
+{
+border-radius: 0px;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 220);
+border: 5px solid rgb(0, 180, 255);
+}
+
+QPushButton:flat
+{
+border-radius: 0px;
+color: rgb(81, 91, 109);
+background-color: rgb(37, 69, 93);
+border: 5px solid rgb(81, 91, 109);
+}
+&lt;/string&gt;
+      &lt;/property&gt;
+      &lt;property name=&quot;text&quot;&gt;
+       &lt;string&gt;Opcje&lt;/string&gt;
+      &lt;/property&gt;
+      &lt;property name=&quot;iconSize&quot;&gt;
+       &lt;size&gt;
+        &lt;width&gt;60&lt;/width&gt;
+        &lt;height&gt;60&lt;/height&gt;
+       &lt;/size&gt;
+      &lt;/property&gt;
+     &lt;/widget&gt;
+    &lt;/item&gt;
+   &lt;/layout&gt;
+  &lt;/widget&gt;
+  &lt;widget class=&quot;QFrame&quot; name=&quot;frame_193&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;0&lt;/x&gt;
+     &lt;y&gt;88&lt;/y&gt;
+     &lt;width&gt;200&lt;/width&gt;
+     &lt;height&gt;100&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;minimumSize&quot;&gt;
+    &lt;size&gt;
+     &lt;width&gt;200&lt;/width&gt;
+     &lt;height&gt;100&lt;/height&gt;
+    &lt;/size&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;frameShape&quot;&gt;
+    &lt;enum&gt;QFrame::StyledPanel&lt;/enum&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;frameShadow&quot;&gt;
+    &lt;enum&gt;QFrame::Raised&lt;/enum&gt;
+   &lt;/property&gt;
+   &lt;layout class=&quot;QGridLayout&quot; name=&quot;gridLayout_387&quot;&gt;
+    &lt;item row=&quot;0&quot; column=&quot;0&quot;&gt;
+     &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton_5&quot;&gt;
+      &lt;property name=&quot;minimumSize&quot;&gt;
+       &lt;size&gt;
+        &lt;width&gt;150&lt;/width&gt;
+        &lt;height&gt;80&lt;/height&gt;
+       &lt;/size&gt;
+      &lt;/property&gt;
+      &lt;property name=&quot;maximumSize&quot;&gt;
+       &lt;size&gt;
+        &lt;width&gt;150&lt;/width&gt;
+        &lt;height&gt;80&lt;/height&gt;
+       &lt;/size&gt;
+      &lt;/property&gt;
+      &lt;property name=&quot;styleSheet&quot;&gt;
+       &lt;string notr=&quot;true&quot;&gt;QPushButton
+{
+border-radius: 0px;
+color: rgb(255, 255, 255);
+background-color: rgb(37, 69, 93);
+border: 5px solid rgb(81, 91, 109);
+}
+
+QPushButton:pressed
+{
+border-radius: 0px;
+color: rgb(255, 255, 255);
+background-color: rgb(37, 69, 93);
+border: 5px solid rgb(0, 180, 255);
+}
+
+QPushButton:disabled
+{
+border-radius: 0px;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 220);
+border: 5px solid rgb(0, 180, 255);
+}
+
+QPushButton:flat
+{
+border-radius: 0px;
+color: rgb(81, 91, 109);
+background-color: rgb(37, 69, 93);
+border: 5px solid rgb(81, 91, 109);
+}
+&lt;/string&gt;
+      &lt;/property&gt;
+      &lt;property name=&quot;text&quot;&gt;
+       &lt;string&gt;S1&lt;/string&gt;
+      &lt;/property&gt;
+     &lt;/widget&gt;
+    &lt;/item&gt;
+   &lt;/layout&gt;
+  &lt;/widget&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+&lt;/ui&gt;
+</string>
+   </property>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>908</width>
+      <height>497</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>908</width>
+      <height>497</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>908</width>
+      <height>497</height>
+     </size>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <property name="minimumSize">
+      <size>
+       <width>908</width>
+       <height>497</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>908</width>
+       <height>497</height>
+      </size>
+     </property>
+     <widget class="QFrame" name="frame">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>908</width>
+        <height>497</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>908</width>
+        <height>497</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="title_label">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>27</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Obsługa PMU</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_legenda">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="set_label">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Sterowanie bez.</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="status_label">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Status bezpiecznika</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="voltage_label">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Wartość napięcia</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="current_label">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Wartość prądu</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="power_label">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Wartość mocy</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="servis_label">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Ustawienia</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QStackedWidget" name="stackedWidget_status">
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="page_fuse_1">
+          <widget class="QFrame" name="frame_Status">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>888</width>
+             <height>375</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="9" column="2">
+             <widget class="QLabel" name="statusS7_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="3">
+             <widget class="QLabel" name="voltageS4_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="5">
+             <widget class="QLabel" name="powerS4_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="4">
+             <widget class="QLabel" name="currentS3_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="voltageS1_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="6">
+             <widget class="QPushButton" name="servisS4_pushButton">
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="6">
+             <widget class="QPushButton" name="servisS8_pushButton">
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="2">
+             <widget class="QLabel" name="status6_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="statusS2_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="4">
+             <widget class="QLabel" name="currentS6_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="4">
+             <widget class="QLabel" name="currentS7_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="4">
+             <widget class="QLabel" name="currentS4_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="2">
+             <widget class="QLabel" name="statusS3_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="3">
+             <widget class="QLabel" name="voltageS6_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="6">
+             <widget class="QPushButton" name="servisS3_pushButton">
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="0">
+             <widget class="QPushButton" name="s5_pushButton">
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="0">
+             <widget class="QPushButton" name="s7_pushButton">
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="4">
+             <widget class="QLabel" name="currentS2_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="6">
+             <widget class="QPushButton" name="servisS7_pushButton">
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="6">
+             <widget class="QPushButton" name="servisS1_pushButton">
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="5">
+             <widget class="QLabel" name="powerS5_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="0">
+             <widget class="QPushButton" name="s8_pushButton">
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QPushButton" name="s1_pushButton">
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="3">
+             <widget class="QLabel" name="voltageS7_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="3">
+             <widget class="QLabel" name="voltageS5_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="3">
+             <widget class="QLabel" name="voltageS8_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="0">
+             <widget class="QPushButton" name="s6_pushButton">
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="5">
+             <widget class="QLabel" name="powerS8_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="6">
+             <widget class="QPushButton" name="servisS6_pushButton">
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QPushButton" name="s4_pushButton">
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="2">
+             <widget class="QLabel" name="statusS5_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="6">
+             <widget class="QPushButton" name="servisS5_pushButton">
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="5">
+             <widget class="QLabel" name="powerS2_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="5">
+             <widget class="QLabel" name="powerS6_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="6">
+             <widget class="QPushButton" name="servisS2_pushButton">
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="4">
+             <widget class="QLabel" name="currentS8_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QLabel" name="statusS1_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="5">
+             <widget class="QLabel" name="powerS7_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="2">
+             <widget class="QLabel" name="statusS4_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="voltageS2_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="4">
+             <widget class="QLabel" name="currentS1_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QPushButton" name="s2_pushButton">
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="5">
+             <widget class="QLabel" name="powerS1_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="voltageS3_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="4">
+             <widget class="QLabel" name="currentS5_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QPushButton" name="s3_pushButton">
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="2">
+             <widget class="QLabel" name="statusS8_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="5">
+             <widget class="QLabel" name="powerS3_label">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="page_fuse_2"/>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <property name="minimumSize">
+      <size>
+       <width>908</width>
+       <height>497</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>908</width>
+       <height>497</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+  </widget>
  </widget>
  <resources/>
  <connections/>
